@@ -1,5 +1,5 @@
 "use strict";
-function add(n1, n2, print, resultPhrase) {
+function sum(n1, n2, print, resultPhrase) {
     // if(typeof n1 !== "number" || typeof n2 !=="number")
     // {
     //     throw new Error('Incorrect Input')
@@ -16,5 +16,5 @@ const num1 = 9;
 const num2 = 2.3;
 let printResult = true;
 const resultPhrase = "The Result is : ";
-const result = add(num1, num2, printResult, resultPhrase);
+const result = sum(num1, num2, printResult, resultPhrase);
 console.log(result);
